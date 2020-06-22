@@ -2,7 +2,7 @@
 Javascript console utilities to hide UI elements and mute sound effects for use in broadcast workflows using default jitsi-meet servers.
 
 By default jitsi-meet has UI overlays, popups and sounds that make it unsuitable for clean capture.
-The javascript methods can toggle on or off those elements in any meeting using a default jitsi-meet server from the browser's development console.
+The javascript methods in jitsi-meet-console-utils.js can be used to toggle on or off those elements in any meeting using a default jitsi-meet server from the browser's development console.
 
 This could be useful for those who don't want to deploy their own custom jitsi-meet server.
 Note that this will hide the entire UI, i.e. controls such as kicking participants
