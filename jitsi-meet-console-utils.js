@@ -30,6 +30,10 @@ function hide() {
         /* remove the chrome extension popup - TODO add rules for other browsers with extensions */
         .chrome-extension-banner { display: none !important; }
 
+        /* remove the jitsi logo */
+        .watermark { display: none !important; }
+        .leftwatermark { display: none !important; } 
+
         /* remove top toolbar (meeting name, timer) */
         .subject { display: none !important; }
 
